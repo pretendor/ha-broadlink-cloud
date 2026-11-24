@@ -1,0 +1,19 @@
+{
+  "domain": "broadlink_cloud",
+  "name": "BroadLink Cloud (Unofficial)",
+  "version": "0.1.2",
+  "documentation": "https://github.com/pretendor/ha-broadlink-cloud#readme",
+  "issue_tracker": "https://github.com/pretendor/ha-broadlink-cloud/issues",
+  "codeowners": [
+    "@pretendor"
+  ],
+  "config_flow": true,
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "categories": [
+    "buttons_remotes"
+  ],
+  "requirements": [
+    "httpx==0.28.1"
+  ]
+}

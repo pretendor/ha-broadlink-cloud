@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "BroadLink Cloud account",
+        "description": "Connect an EU account from the official BroadLink app. This integration is unofficial and experimental.",
+        "data": {
+          "email": "Email address",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Login failed. Check the account credentials.",
+      "cannot_connect": "Could not connect to BroadLink Cloud. Try again."
+    },
+    "abort": {
+      "already_configured": "This BroadLink account is already configured."
+    }
+  }
+}

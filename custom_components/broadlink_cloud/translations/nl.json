@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "BroadLink Cloud-account",
+        "description": "Koppel een account in de Europese regio van de officiële BroadLink-app. Deze integratie is onofficieel en experimenteel.",
+        "data": {
+          "email": "E-mailadres",
+          "password": "Wachtwoord"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Inloggen mislukt. Controleer de accountgegevens.",
+      "cannot_connect": "Geen verbinding met de BroadLink-cloud. Probeer opnieuw."
+    },
+    "abort": {
+      "already_configured": "Dit BroadLink-account is al toegevoegd."
+    }
+  }
+}
